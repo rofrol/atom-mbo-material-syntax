@@ -29,3 +29,46 @@
 @syntax-color-added: @green;
 @syntax-color-modified: @orange;
 @syntax-color-removed: @red;
+
+
+// This defines all syntax variables that syntax themes must implement when they
+// include a syntax-variables.less file.
+
+// General colors
+@syntax-text-color: @mbo-white-pastel;
+@syntax-cursor-color: @mbo-white-pastel;
+@syntax-selection-color: @mbo-gray-brownish;
+@syntax-background-color: @mbo-gray-very-dark;
+
+// Guide colors
+@syntax-wrap-guide-color: @mbo-gray-dark;
+@syntax-indent-guide-color: @mbo-gray-dark;
+@syntax-invisible-character-color: @mbo-gray-dark;
+
+// For find and replace markers
+@syntax-result-marker-color: @mbo-gray-light;
+@syntax-result-marker-color-selected: white;
+
+// Gutter colors
+@syntax-gutter-text-color: @mbo-gray;
+@syntax-gutter-text-color-selected: mix(@mbo-white-pastel, @mbo-gray-light);
+@syntax-gutter-background-color: lighten(@mbo-gray-very-dark, 5%);
+@syntax-gutter-background-color-selected: @mbo-gray-dark;
+
+// For git diff info. i.e. in the gutter
+@syntax-color-renamed: @mbo-blue;
+@syntax-color-added: @mbo-green;
+@syntax-color-modified: @mbo-orange;
+@syntax-color-removed: @mbo-red;
+
+// js syntax variables
+@syntax-js-entity-name-function: @mbo-blue;  // .entity.name.function (function name)
+@syntax-js-support-class: @mbo-white-pastel; // .support.class (global variable, e.g. window)
+@syntax-js-support-function: @mbo-blue;      // .support.function (global function call, e.g. require)
+@syntax-js-support-constant: @mbo-blue;      // .support.constant.dom (global function call, e.g. require)
+@syntax-js-function-keyword: @mbo-orange;    // .storage.type.function (function keyword)
+@syntax-js-brace: @mbo-white-pastel;         // .brace
+@syntax-js-operator: @mbo-white-pastel;      // .operator
+@syntax-js-var: @mbo-orange;                 // .storage.modifier (var)
+@syntax-js-number: @mbo-blue-dark;           // .constant.numeric (number)
+@syntax-js-quotes: @mbo-orange-light;        // .punctuation.definition.string (quotes)
