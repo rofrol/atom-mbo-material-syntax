@@ -1,5 +1,12 @@
 # mbo-material-syntax theme
 
-A short description of your theme.
+Theme based on https://atom.io/themes/mbo and colors used in http://elm-lang.org/examples/.
 
-![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
+Main motivation was to make mbo work with [material ui theme](https://atom.io/themes/atom-material-ui), so that ui uses `background-color` from syntax theme. And also make it more flat by removing different color for gutter.
+
+Differencies from http://elm-lang.org/examples/
+- chars `=` and `->` aren't orange
+- background and colors are darker `` `andThen` `` and similar are orange
+- `_` isn't orange
+
+![](https://github.com/rofrol/atom-mbo-material-syntax/raw/master/screenshot.png)
