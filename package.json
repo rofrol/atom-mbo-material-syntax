@@ -1,13 +1,13 @@
 {
-  "name": "mbo-material-syntax",
-  "theme": "syntax",
-  "version": "0.0.0",
-  "description": "A short description of your syntax theme",
+  "name": "mbo-material",
+  "theme": "syn tax",
+  "version": "1.0.0",
+  "description": "Mbo syntax theme compatible with material ui",
   "keywords": [
     "syntax",
     "theme"
   ],
-  "repository": "https://github.com/atom/mbo-material-syntax",
+  "repository": "https://github.com/rofrol/atom-mbo-material-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
